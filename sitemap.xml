@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://celebvacations.com/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://celebvacations.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://celebvacations.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://celebvacations.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://celebvacations.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://celebvacations.com/"/>
+  </url>
+
+  <!-- Main Sections -->
+  <url>
+    <loc>https://celebvacations.com/destinations/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/collections/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/rankings/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Featured Destinations -->
+  <url>
+    <loc>https://celebvacations.com/destinations/malibu/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/miami/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/los-angeles/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/new-york-city/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/aspen/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/paris/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/london/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/ibiza/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/cabo-san-lucas/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/st-barts/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/amalfi-coast/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/maldives/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Travel Themes -->
+  <url>
+    <loc>https://celebvacations.com/themes/beach-escapes/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/ski-retreats/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/romantic-getaways/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/adventure-travel/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/wellness-retreats/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/family-vacations/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About & Legal -->
+  <url>
+    <loc>https://celebvacations.com/about/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/legal/privacy/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/legal/terms/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
