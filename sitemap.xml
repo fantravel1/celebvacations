@@ -129,6 +129,27 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/destinations/lake-como/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/mykonos/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/dubai/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Celebrities -->
   <url>
     <loc>https://celebvacations.com/celebrities/beyonce/</loc>
@@ -179,6 +200,20 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/celebrities/oprah-winfrey/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/david-beckham/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Hotels -->
   <url>
     <loc>https://celebvacations.com/hotels/four-seasons-bora-bora/</loc>
@@ -203,6 +238,20 @@
 
   <url>
     <loc>https://celebvacations.com/hotels/claridges/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/hotel-du-cap-eden-roc/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/aman-tokyo/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
