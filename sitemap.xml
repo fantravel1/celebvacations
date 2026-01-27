@@ -150,6 +150,27 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/destinations/hamptons/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/turks-and-caicos/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/santorini/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Celebrities -->
   <url>
     <loc>https://celebvacations.com/celebrities/beyonce/</loc>
@@ -214,6 +235,20 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/celebrities/drake/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/kylie-jenner/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Hotels -->
   <url>
     <loc>https://celebvacations.com/hotels/four-seasons-bora-bora/</loc>
@@ -252,6 +287,20 @@
 
   <url>
     <loc>https://celebvacations.com/hotels/aman-tokyo/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/belmond-hotel-caruso/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/eden-rock-st-barths/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
