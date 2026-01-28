@@ -53,9 +53,16 @@
 
   <url>
     <loc>https://celebvacations.com/rankings/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/rankings/top-destinations-2025/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- Guides - SEO Optimized Content Hub -->
@@ -447,47 +454,61 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Travel Themes -->
+  <!-- Travel Themes - SEO Optimized -->
   <url>
     <loc>https://celebvacations.com/themes/beach-escapes/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://celebvacations.com/themes/ski-retreats/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://celebvacations.com/themes/romantic-getaways/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://celebvacations.com/themes/adventure-travel/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://celebvacations.com/themes/wellness-retreats/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://celebvacations.com/themes/family-vacations/</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/yacht-cruises/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/themes/city-escapes/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- About & Legal -->
