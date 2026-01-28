@@ -65,6 +65,20 @@
     <priority>0.85</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/rankings/top-hotels-2025/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/rankings/most-traveled-celebrities/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Guides - SEO Optimized Content Hub -->
   <url>
     <loc>https://celebvacations.com/guides/</loc>
@@ -480,7 +494,7 @@
     <loc>https://celebvacations.com/themes/adventure-travel/</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
@@ -501,14 +515,14 @@
     <loc>https://celebvacations.com/themes/yacht-cruises/</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://celebvacations.com/themes/city-escapes/</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <!-- About & Legal -->
