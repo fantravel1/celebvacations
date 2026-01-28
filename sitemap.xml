@@ -171,6 +171,20 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/destinations/bali/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/destinations/capri/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Celebrities -->
   <url>
     <loc>https://celebvacations.com/celebrities/beyonce/</loc>
@@ -249,6 +263,20 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://celebvacations.com/celebrities/chris-hemsworth/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/justin-bieber/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Hotels -->
   <url>
     <loc>https://celebvacations.com/hotels/four-seasons-bora-bora/</loc>
@@ -301,6 +329,20 @@
 
   <url>
     <loc>https://celebvacations.com/hotels/eden-rock-st-barths/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/post-ranch-inn/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/hotels/aman-venice/</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
