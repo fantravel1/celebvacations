@@ -582,6 +582,36 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- Additional Rankings -->
+  <url>
+    <loc>https://celebvacations.com/rankings/rising-destinations-2025/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/rankings/best-honeymoon-destinations/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Collections -->
+  <url>
+    <loc>https://celebvacations.com/collections/ultimate-beach/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/collections/european-escapes/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- About & Legal -->
   <url>
     <loc>https://celebvacations.com/about/</loc>
