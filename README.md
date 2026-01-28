@@ -205,9 +205,69 @@ Every claim requires:
 - Entity-first URLs
 - Destination + celebrity long-tail domination
 - Canonical clustering
-- Schema.org (Travel, Place, Person)
-- FAQ + “People Also Ask” blocks
+- Schema.org (Travel, Place, Person, FAQPage, Article, ItemList)
+- FAQ + "People Also Ask" blocks
 - Direct-answer vacation intent pages
+
+### SEO Content Hub (/guides/)
+
+Comprehensive guide pages targeting high-intent celebrity vacation searches:
+
+#### Core Destination Queries
+- **Where Do Celebrities Vacation?** - `/guides/where-do-celebrities-vacation/`
+  - Target: "where do celebrities vacation", "celebrity vacation destinations", "where do A-list celebrities travel"
+- **Celebrity Hotels Guide** - `/guides/celebrity-hotels/`
+  - Target: "what hotels do celebrities stay at", "celebrity favorite hotels"
+
+#### Seasonal Targeting
+- **Summer Vacations** - `/guides/summer-vacations/`
+  - Target: "where do celebrities vacation in summer", Mediterranean, Hamptons
+- **Winter Vacations** - `/guides/winter-vacations/`
+  - Target: "where do celebrities vacation in winter", ski destinations, tropical escapes
+
+#### Regional Guides
+- **Europe** - `/guides/europe/`
+- **United States** - `/guides/united-states/`
+- **Caribbean Islands** - `/guides/caribbean-islands/`
+- **Beaches & Islands** - `/guides/beaches-islands/`
+
+#### Special Interest Content
+- **Private Getaways** - `/guides/private-getaways/`
+  - Target: "where do celebrities go to avoid paparazzi", "secret celebrity spots"
+- **Restaurants & Nightlife** - `/guides/restaurants-nightlife/`
+  - Target: "where do celebrities eat on vacation", "celebrity restaurants"
+- **How Celebrities Travel** - `/guides/how-celebrities-travel/`
+  - Target: "how do celebrities travel", "celebrity private jets"
+
+#### Budget & Accessibility
+- **Vacation Like a Celebrity** - `/guides/vacation-like-celebrity/`
+  - Target: "how to vacation like a celebrity", "affordable celebrity destinations"
+
+#### Trends & Freshness
+- **Trends 2025** - `/guides/trends-2025/`
+  - Target: "where are celebrities vacationing now", "celebrity travel trends 2025"
+
+### AI Search Optimization (AEO)
+
+Each guide page includes:
+- Quick answer boxes for featured snippet capture
+- FAQPage schema for rich results
+- Conversational query targeting ("I want to vacation like a celebrity")
+- Natural language patterns matching voice search
+- Comprehensive FAQ sections answering People Also Ask queries
+
+### Target Query Categories
+
+1. **Core Questions**: Where do celebrities vacation?, Where do celebrities go on vacation?
+2. **Celebrity-Specific**: Where does [Celebrity Name] vacation?
+3. **Hotels & Accommodations**: What hotels do celebrities stay at?
+4. **Restaurants & Nightlife**: Where do celebrities eat on vacation?
+5. **Beaches & Islands**: What islands do celebrities vacation on?
+6. **Why/How Questions**: Why do celebrities vacation in [Place]?, How do celebrities travel?
+7. **Budget Questions**: Can normal people vacation where celebrities go?
+8. **Time-Based**: Where are celebrities vacationing right now?, Celebrity vacation trends 2025
+9. **Privacy**: Where do celebrities go to avoid paparazzi?
+10. **Conversational AI**: I want to vacation like a celebrity - where should I go?
 
 ---
 
