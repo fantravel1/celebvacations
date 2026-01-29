@@ -971,6 +971,63 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Trending 2025 Celebrities -->
+  <url>
+    <loc>https://celebvacations.com/celebrities/sydney-sweeney/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/jenna-ortega/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/pedro-pascal/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/florence-pugh/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/austin-butler/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/sabrina-carpenter/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/jacob-elordi/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://celebvacations.com/celebrities/travis-kelce/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Hotels -->
   <url>
     <loc>https://celebvacations.com/hotels/four-seasons-bora-bora/</loc>

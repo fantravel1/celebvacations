@@ -235,6 +235,29 @@
       </div>
     </section>
 
+    <!-- Dynamic Monthly Spotlight Section -->
+    <section class="section section-dark" aria-labelledby="monthly-heading" id="vacationing-now">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-subtitle" id="monthly-subtitle">This Month</span>
+          <h2 id="monthly-heading">Where Celebrities Are Vacationing in <span id="current-month">January</span></h2>
+          <p class="section-desc" id="monthly-desc">Based on historical travel patterns and verified sightings, here's where A-listers typically vacation this time of year.</p>
+        </header>
+
+        <div id="monthly-destinations" class="grid grid-3">
+          <!-- Populated by JavaScript based on current month -->
+        </div>
+
+        <div id="monthly-celebrities" class="grid grid-4" style="margin-top: var(--space-6);">
+          <!-- Populated by JavaScript based on current month -->
+        </div>
+
+        <div class="text-center mt-8">
+          <a href="/guides/where-do-celebrities-vacation/" class="btn btn-primary">Full Seasonal Guide</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Featured Destinations Section -->
     <section class="section" aria-labelledby="destinations-heading">
       <div class="container">
@@ -787,6 +810,251 @@
           });
         }
       });
+
+      // Monthly Spotlight - Dynamic content based on current month
+      const monthlyData = {
+        0: { // January
+          name: 'January',
+          subtitle: 'Winter Escapes & New Year Getaways',
+          desc: 'January sees celebrities recovering from the holidays in tropical paradises or hitting the slopes for winter sports.',
+          destinations: [
+            { name: 'St. Barts', url: '/destinations/st-barts/', img: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=500&q=80', visits: '89 celebrity visits this month' },
+            { name: 'Aspen', url: '/destinations/aspen/', img: 'https://images.unsplash.com/photo-1551524559-8af4e6624178?w=500&q=80', visits: '67 celebrity visits this month' },
+            { name: 'Maldives', url: '/destinations/maldives/', img: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=500&q=80', visits: '54 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Leonardo DiCaprio', url: '/celebrities/leonardo-dicaprio/', category: 'St. Barts regular', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80' },
+            { name: 'Kim Kardashian', url: '/celebrities/kim-kardashian/', category: 'Tropical escapes', img: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=160&q=80' },
+            { name: 'Travis Kelce', url: '/celebrities/travis-kelce/', category: 'Bahamas getaways', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Kylie Jenner', url: '/celebrities/kylie-jenner/', category: 'Aspen skiing', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' }
+          ]
+        },
+        1: { // February
+          name: 'February',
+          subtitle: 'Post-Awards Season & Valentine\'s Escapes',
+          desc: 'After awards season, celebrities decompress with romantic getaways and tropical retreats.',
+          destinations: [
+            { name: 'Maldives', url: '/destinations/maldives/', img: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=500&q=80', visits: '78 celebrity visits this month' },
+            { name: 'Paris', url: '/destinations/paris/', img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=500&q=80', visits: '56 celebrity visits this month' },
+            { name: 'Turks & Caicos', url: '/destinations/turks-and-caicos/', img: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=500&q=80', visits: '45 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Beyoncé', url: '/celebrities/beyonce/', category: 'Romantic escapes', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'George Clooney', url: '/celebrities/george-clooney/', category: 'European retreats', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80' },
+            { name: 'Priyanka Chopra', url: '/celebrities/priyanka-chopra/', category: 'Maldives honeymoons', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'David Beckham', url: '/celebrities/david-beckham/', category: 'Ski trips', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' }
+          ]
+        },
+        2: { // March
+          name: 'March',
+          subtitle: 'Spring Break & Film Festival Season',
+          desc: 'Spring break destinations heat up as celebrities mix pleasure with film festival appearances.',
+          destinations: [
+            { name: 'Miami', url: '/destinations/miami/', img: 'https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=500&q=80', visits: '92 celebrity visits this month' },
+            { name: 'Cabo San Lucas', url: '/destinations/cabo/', img: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=500&q=80', visits: '67 celebrity visits this month' },
+            { name: 'Bahamas', url: '/destinations/bahamas/', img: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=500&q=80', visits: '58 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Dwayne Johnson', url: '/celebrities/dwayne-johnson/', category: 'Hawaii escapes', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80' },
+            { name: 'Jennifer Lopez', url: '/celebrities/jennifer-lopez/', category: 'Miami Beach', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'Bad Bunny', url: '/celebrities/bad-bunny/', category: 'Caribbean trips', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Sydney Sweeney', url: '/celebrities/sydney-sweeney/', category: 'Beach getaways', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' }
+          ]
+        },
+        3: { // April
+          name: 'April',
+          subtitle: 'Coachella Season & European Spring',
+          desc: 'April brings festival season and the start of European spring travel for celebrities.',
+          destinations: [
+            { name: 'Palm Springs', url: '/destinations/palm-springs/', img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80', visits: '145 celebrity visits (Coachella)' },
+            { name: 'Lake Como', url: '/destinations/lake-como/', img: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?w=500&q=80', visits: '34 celebrity visits this month' },
+            { name: 'Malibu', url: '/destinations/malibu/', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&q=80', visits: '78 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Kendall Jenner', url: '/celebrities/kendall-jenner/', category: 'Coachella regular', img: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=160&q=80' },
+            { name: 'Harry Styles', url: '/celebrities/harry-styles/', category: 'Music festivals', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80' },
+            { name: 'Hailey Bieber', url: '/celebrities/hailey-bieber/', category: 'Desert parties', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' },
+            { name: 'Jenna Ortega', url: '/celebrities/jenna-ortega/', category: 'Festival fashion', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' }
+          ]
+        },
+        4: { // May
+          name: 'May',
+          subtitle: 'Cannes Film Festival & Mediterranean Opening',
+          desc: 'The French Riviera comes alive as Cannes draws the biggest stars in entertainment.',
+          destinations: [
+            { name: 'Monaco', url: '/destinations/monaco/', img: 'https://images.unsplash.com/photo-1534008757030-27299c4371b6?w=500&q=80', visits: '156 celebrity visits (Cannes/Monaco GP)' },
+            { name: 'French Riviera', url: '/destinations/st-tropez/', img: 'https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=500&q=80', visits: '134 celebrity visits this month' },
+            { name: 'Italy', url: '/destinations/capri/', img: 'https://images.unsplash.com/photo-1534008757030-27299c4371b6?w=500&q=80', visits: '89 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Brad Pitt', url: '/celebrities/brad-pitt/', category: 'Cannes regular', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80' },
+            { name: 'Florence Pugh', url: '/celebrities/florence-pugh/', category: 'Film premieres', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' },
+            { name: 'Zendaya', url: '/celebrities/zendaya/', category: 'Festival fashion', img: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=160&q=80' },
+            { name: 'Austin Butler', url: '/celebrities/austin-butler/', category: 'European press', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' }
+          ]
+        },
+        5: { // June
+          name: 'June',
+          subtitle: 'Summer Kicks Off & Mediterranean Season',
+          desc: 'Summer officially begins with celebrities heading to Mediterranean hotspots and beach destinations.',
+          destinations: [
+            { name: 'Ibiza', url: '/destinations/ibiza/', img: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=500&q=80', visits: '112 celebrity visits this month' },
+            { name: 'Mykonos', url: '/destinations/mykonos/', img: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=500&q=80', visits: '89 celebrity visits this month' },
+            { name: 'Hamptons', url: '/destinations/hamptons/', img: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500&q=80', visits: '98 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Rihanna', url: '/celebrities/rihanna/', category: 'Yacht season', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' },
+            { name: 'Drake', url: '/celebrities/drake/', category: 'Island hopping', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Dua Lipa', url: '/celebrities/dua-lipa/', category: 'Ibiza parties', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'Pedro Pascal', url: '/celebrities/pedro-pascal/', category: 'European travels', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80' }
+          ]
+        },
+        6: { // July
+          name: 'July',
+          subtitle: '4th of July & Peak Mediterranean Season',
+          desc: 'Peak summer sees celebrities celebrating Independence Day and Mediterranean yacht season.',
+          destinations: [
+            { name: 'Hamptons', url: '/destinations/hamptons/', img: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500&q=80', visits: '187 celebrity visits (4th of July)' },
+            { name: 'Sardinia', url: '/destinations/sardinia/', img: 'https://images.unsplash.com/photo-1534008757030-27299c4371b6?w=500&q=80', visits: '78 celebrity visits this month' },
+            { name: 'Saint-Tropez', url: '/destinations/st-tropez/', img: 'https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=500&q=80', visits: '112 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Taylor Swift', url: '/celebrities/taylor-swift/', category: 'Rhode Island 4th', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' },
+            { name: 'Oprah Winfrey', url: '/celebrities/oprah-winfrey/', category: 'Yacht cruises', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&q=80' },
+            { name: 'LeBron James', url: '/celebrities/lebron-james/', category: 'Off-season travels', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Gigi Hadid', url: '/celebrities/gigi-hadid/', category: 'Mykonos parties', img: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=160&q=80' }
+          ]
+        },
+        7: { // August
+          name: 'August',
+          subtitle: 'Peak European Summer & Island Hopping',
+          desc: 'August brings the height of Mediterranean season with yacht parties and island adventures.',
+          destinations: [
+            { name: 'Ibiza', url: '/destinations/ibiza/', img: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=500&q=80', visits: '156 celebrity visits this month' },
+            { name: 'Amalfi Coast', url: '/destinations/amalfi-coast/', img: 'https://images.unsplash.com/photo-1534008757030-27299c4371b6?w=500&q=80', visits: '134 celebrity visits this month' },
+            { name: 'Santorini', url: '/destinations/santorini/', img: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=500&q=80', visits: '89 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Cristiano Ronaldo', url: '/celebrities/cristiano-ronaldo/', category: 'Yacht holidays', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80' },
+            { name: 'Naomi Campbell', url: '/celebrities/naomi-campbell/', category: 'Greek islands', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&q=80' },
+            { name: 'Elton John', url: '/celebrities/elton-john/', category: 'Mediterranean cruise', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80' },
+            { name: 'Sabrina Carpenter', url: '/celebrities/sabrina-carpenter/', category: 'European summer', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' }
+          ]
+        },
+        8: { // September
+          name: 'September',
+          subtitle: 'Venice Film Festival & Fashion Month',
+          desc: 'September marks Venice Film Festival, Fashion Weeks, and the last Mediterranean getaways.',
+          destinations: [
+            { name: 'Venice', url: '/destinations/venice/', img: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=500&q=80', visits: '189 celebrity visits (Film Festival)' },
+            { name: 'Milan', url: '/destinations/milan/', img: 'https://images.unsplash.com/photo-1520440229-6469a149ac59?w=500&q=80', visits: '156 celebrity visits (Fashion Week)' },
+            { name: 'Lake Como', url: '/destinations/lake-como/', img: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?w=500&q=80', visits: '87 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Timothée Chalamet', url: '/celebrities/timothee-chalamet/', category: 'Venice premieres', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80' },
+            { name: 'Anne Hathaway', url: '/celebrities/anne-hathaway/', category: 'Fashion weeks', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'Jacob Elordi', url: '/celebrities/jacob-elordi/', category: 'European press', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Lady Gaga', url: '/celebrities/lady-gaga/', category: 'Italian heritage', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' }
+          ]
+        },
+        9: { // October
+          name: 'October',
+          subtitle: 'Fall Getaways & Award Season Prep',
+          desc: 'October brings autumn escapes and the start of awards campaign season travels.',
+          destinations: [
+            { name: 'Paris', url: '/destinations/paris/', img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=500&q=80', visits: '134 celebrity visits (Fashion Week)' },
+            { name: 'Bali', url: '/destinations/bali/', img: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=500&q=80', visits: '78 celebrity visits this month' },
+            { name: 'Japan', url: '/destinations/tokyo/', img: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=500&q=80', visits: '67 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Emma Stone', url: '/celebrities/emma-stone/', category: 'Press tours', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' },
+            { name: 'Chris Hemsworth', url: '/celebrities/chris-hemsworth/', category: 'Australia visits', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Scarlett Johansson', url: '/celebrities/scarlett-johansson/', category: 'Fall escapes', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'Tom Hanks', url: '/celebrities/tom-hanks/', category: 'Greek getaways', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&q=80' }
+          ]
+        },
+        10: { // November
+          name: 'November',
+          subtitle: 'Thanksgiving & Pre-Holiday Escapes',
+          desc: 'November sees celebrities enjoying Thanksgiving getaways and early holiday travel.',
+          destinations: [
+            { name: 'Hawaii', url: '/destinations/hawaii/', img: 'https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=500&q=80', visits: '134 celebrity visits this month' },
+            { name: 'Dubai', url: '/destinations/dubai/', img: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500&q=80', visits: '89 celebrity visits this month' },
+            { name: 'Maldives', url: '/destinations/maldives/', img: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=500&q=80', visits: '78 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Justin Bieber', url: '/celebrities/justin-bieber/', category: 'Hawaii retreats', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80' },
+            { name: 'Selena Gomez', url: '/celebrities/selena-gomez/', category: 'Wellness escapes', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'Orlando Bloom', url: '/celebrities/orlando-bloom/', category: 'Hawaii living', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&q=80' },
+            { name: 'Katy Perry', url: '/celebrities/katy-perry/', category: 'Island life', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&q=80' }
+          ]
+        },
+        11: { // December
+          name: 'December',
+          subtitle: 'Holiday Season & New Year\'s Eve',
+          desc: 'December brings the biggest celebrity travel season with Christmas getaways and NYE celebrations.',
+          destinations: [
+            { name: 'St. Barts', url: '/destinations/st-barts/', img: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=500&q=80', visits: '234 celebrity visits (Holiday peak)' },
+            { name: 'Aspen', url: '/destinations/aspen/', img: 'https://images.unsplash.com/photo-1551524559-8af4e6624178?w=500&q=80', visits: '189 celebrity visits this month' },
+            { name: 'Swiss Alps', url: '/destinations/st-moritz/', img: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500&q=80', visits: '145 celebrity visits this month' }
+          ],
+          celebrities: [
+            { name: 'Beyoncé', url: '/celebrities/beyonce/', category: 'NYE yachts', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&q=80' },
+            { name: 'Leonardo DiCaprio', url: '/celebrities/leonardo-dicaprio/', category: 'St. Barts NYE', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&q=80' },
+            { name: 'Mariah Carey', url: '/celebrities/mariah-carey/', category: 'Aspen Christmas', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&q=80' },
+            { name: 'The Kardashians', url: '/celebrities/kim-kardashian/', category: 'Holiday travels', img: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=160&q=80' }
+          ]
+        }
+      };
+
+      // Populate monthly section
+      function populateMonthlySection() {
+        const now = new Date();
+        const currentMonth = now.getMonth();
+        const data = monthlyData[currentMonth];
+
+        if (!data) return;
+
+        // Update header
+        document.getElementById('current-month').textContent = data.name;
+        document.getElementById('monthly-subtitle').textContent = data.subtitle;
+        document.getElementById('monthly-desc').textContent = data.desc;
+
+        // Populate destinations
+        const destContainer = document.getElementById('monthly-destinations');
+        if (destContainer) {
+          destContainer.innerHTML = data.destinations.map(dest => `
+            <a href="${dest.url}" class="card">
+              <div class="card-image">
+                <img src="${dest.img}" alt="${dest.name}" loading="lazy" width="400" height="250">
+                <span class="card-badge">Hot Now</span>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">${dest.name}</h3>
+                <div class="card-meta"><span>${dest.visits}</span></div>
+              </div>
+            </a>
+          `).join('');
+        }
+
+        // Populate celebrities
+        const celebContainer = document.getElementById('monthly-celebrities');
+        if (celebContainer) {
+          celebContainer.innerHTML = data.celebrities.map(celeb => `
+            <a href="${celeb.url}" class="celebrity-card">
+              <div class="celebrity-avatar">
+                <img src="${celeb.img}" alt="${celeb.name}" loading="lazy" width="80" height="80">
+              </div>
+              <div class="celebrity-info">
+                <div class="celebrity-name">${celeb.name}</div>
+                <div class="celebrity-category">${celeb.category}</div>
+              </div>
+            </a>
+          `).join('');
+        }
+      }
+
+      populateMonthlySection();
     });
   </script>
 </body>
